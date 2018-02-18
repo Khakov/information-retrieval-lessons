@@ -2,8 +2,12 @@ from lxml import html
 import requests
 import dicttoxml
 
-
 # Items name helper function
+from pymystem3 import Mystem
+
+from russian_stemmer import Porter
+
+
 def item_func(parent):
     if parent == 'articles':
         return 'article'
@@ -29,12 +33,21 @@ def parse_site(site, path):
     dom_tree = get_site_content(page_url)
     for article in dom_tree.xpath('//td[@width="90%"]/a[@class="SLink"]'):
         title = ''.join(article.xpath('text()'))
+        title_porter = Porter.stem(title).strip()
+        title_mystem = ''.join(Mystem().lemmatize(title)).strip()
         href, = article.xpath('@href')
-        issue['articles'].append({'url': str(site + href), 'title': title})
+        issue['articles'].append({'url': str(site + href), 'title_original': title, 'title_porter': title_porter,
+                                  'title_mystem': title_mystem})
 
     for article in issue['articles']:
         dom_tree = get_site_content(article['url'])
-        article['annotate'] = dom_tree.xpath("// b[contains(.,'Аннотация:')][1]")[0].tail.strip()
+        original_annotate = ''.join(dom_tree.xpath("//b[contains(.,'Аннотация:')]/following-sibling::node()"
+                                                   "[following-sibling::br[1] and following-sibling::"
+                                                   "b[contains(.,'Ключевые слова:')]]/descendant-or-self::text()"))\
+            .strip()
+        article['annotate_original'] = original_annotate
+        article['annotate_porter'] = Porter.stem(original_annotate).strip()
+        article['annotate_mystem'] = ''.join(Mystem().lemmatize(original_annotate)).strip()
         article['keywords'] = str(dom_tree.xpath("// b[contains(.,'Ключевые слова:')] / following-sibling::i")[0].text)[
                               :-1].split(', ')
     return issue
