@@ -1,4 +1,5 @@
 import xml.etree.ElementTree as Elem
+from string import punctuation
 
 
 # create index dict for set of words
@@ -35,9 +36,9 @@ def get_index():
     articles = root.find('articles')
     for doc_num, article in enumerate(articles.findall('article')):
         article_mystem_set = set(
-            article.find('title_mystem').text.split() + article.find('annotate_mystem').text.split())
+            [w.strip(punctuation) for w in article.find('title_mystem').text.split() + article.find('annotate_mystem').text.split()])
         article_porter_set = set(
-            article.find('title_porter').text.split() + article.find('annotate_porter').text.split())
+            [w.strip(punctuation) for w in (article.find('title_porter').text.split() + article.find('annotate_porter').text.split())])
         create_index_for_doc(porter_index, article_porter_set, doc_num)
         create_index_for_doc(mystem_index, article_mystem_set, doc_num)
     write_to_file('index_mystem.xml', mystem_index)
