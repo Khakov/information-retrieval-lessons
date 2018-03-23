@@ -1,3 +1,5 @@
+from string import punctuation
+
 from lxml import html
 import requests
 import dicttoxml
@@ -33,7 +35,7 @@ def parse_site(site, path):
     dom_tree = get_site_content(page_url)
     for article in dom_tree.xpath('//td[@width="90%"]/a[@class="SLink"]'):
         title = ''.join(article.xpath('text()'))
-        title_porter = Porter.stem(title).strip()
+        title_porter = ' '.join([Porter.stem(word.strip(punctuation)) for word in title.split()])
         title_mystem = ''.join(Mystem().lemmatize(title)).strip()
         href, = article.xpath('@href')
         issue['articles'].append({'url': str(site + href), 'title_original': title, 'title_porter': title_porter,
@@ -43,11 +45,12 @@ def parse_site(site, path):
         dom_tree = get_site_content(article['url'])
         original_annotate = ''.join(dom_tree.xpath("//b[contains(.,'Аннотация:')]/following-sibling::node()"
                                                    "[following-sibling::br[1] and following-sibling::"
-                                                   "b[contains(.,'Ключевые слова:')]]/descendant-or-self::text()"))\
+                                                   "b[contains(.,'Ключевые слова:')]]/descendant-or-self::text()")) \
             .strip()
         article['annotate_original'] = original_annotate
-        article['annotate_porter'] = Porter.stem(original_annotate).strip()
-        article['annotate_mystem'] = ''.join(Mystem().lemmatize(original_annotate)).strip()
+        article['annotate_porter'] = ' '.join(
+            [Porter.stem(word.strip(punctuation)) for word in original_annotate.split()])
+        article['annotate_mystem'] = ''.join(Mystem().lemmatize(original_annotate)).strip(punctuation)
         article['keywords'] = str(dom_tree.xpath("// b[contains(.,'Ключевые слова:')] / following-sibling::i")[0].text)[
                               :-1].split(', ')
     return issue

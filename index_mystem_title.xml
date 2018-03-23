@@ -1,0 +1,398 @@
+<?xml version='1.0' encoding='utf-8'?>
+<inverter_index>
+    <words>
+        <word count="1" name="1">
+            <documents>
+                <document>1</document>
+            </documents>
+        </word>
+        <word count="1" name="абсолютный">
+            <documents>
+                <document>7</document>
+            </documents>
+        </word>
+        <word count="1" name="алгебра">
+            <documents>
+                <document>1</document>
+            </documents>
+        </word>
+        <word count="1" name="альтернативный">
+            <documents>
+                <document>7</document>
+            </documents>
+        </word>
+        <word count="1" name="бола">
+            <documents>
+                <document>5</document>
+            </documents>
+        </word>
+        <word count="1" name="большой">
+            <documents>
+                <document>7</document>
+            </documents>
+        </word>
+        <word count="2" name="в">
+            <documents>
+                <document>1</document>
+                <document>2</document>
+            </documents>
+        </word>
+        <word count="1" name="вариант">
+            <documents>
+                <document>2</document>
+            </documents>
+        </word>
+        <word count="1" name="величина">
+            <documents>
+                <document>7</document>
+            </documents>
+        </word>
+        <word count="1" name="гиперповерхность">
+            <documents>
+                <document>1</document>
+            </documents>
+        </word>
+        <word count="1" name="два">
+            <documents>
+                <document>3</document>
+            </documents>
+        </word>
+        <word count="1" name="дифференциальный">
+            <documents>
+                <document>0</document>
+            </documents>
+        </word>
+        <word count="4" name="для">
+            <documents>
+                <document>2</document>
+                <document>3</document>
+                <document>4</document>
+                <document>8</document>
+            </documents>
+        </word>
+        <word count="1" name="дробный">
+            <documents>
+                <document>0</document>
+            </documents>
+        </word>
+        <word count="1" name="задача">
+            <documents>
+                <document>4</document>
+            </documents>
+        </word>
+        <word count="2" name="и">
+            <documents>
+                <document>6</document>
+                <document>7</document>
+            </documents>
+        </word>
+        <word count="1" name="инвариант">
+            <documents>
+                <document>3</document>
+            </documents>
+        </word>
+        <word count="2" name="интегральный">
+            <documents>
+                <document>2</document>
+                <document>8</document>
+            </documents>
+        </word>
+        <word count="1" name="келеровый">
+            <documents>
+                <document>1</document>
+            </documents>
+        </word>
+        <word count="1" name="киллинговый">
+            <documents>
+                <document>6</document>
+            </documents>
+        </word>
+        <word count="1" name="класс">
+            <documents>
+                <document>0</document>
+            </documents>
+        </word>
+        <word count="1" name="контактный">
+            <documents>
+                <document>1</document>
+            </documents>
+        </word>
+        <word count="1" name="конформный">
+            <documents>
+                <document>6</document>
+            </documents>
+        </word>
+        <word count="1" name="критерий">
+            <documents>
+                <document>7</document>
+            </documents>
+        </word>
+        <word count="1" name="кэль">
+            <documents>
+                <document>1</document>
+            </documents>
+        </word>
+        <word count="1" name="лакунарный">
+            <documents>
+                <document>8</document>
+            </documents>
+        </word>
+        <word count="1" name="лаплас">
+            <documents>
+                <document>3</document>
+            </documents>
+        </word>
+        <word count="1" name="левый">
+            <documents>
+                <document>5</document>
+            </documents>
+        </word>
+        <word count="1" name="мерный">
+            <documents>
+                <document>1</document>
+            </documents>
+        </word>
+        <word count="1" name="метод">
+            <documents>
+                <document>2</document>
+            </documents>
+        </word>
+        <word count="1" name="метрический">
+            <documents>
+                <document>1</document>
+            </documents>
+        </word>
+        <word count="1" name="не">
+            <documents>
+                <document>6</document>
+            </documents>
+        </word>
+        <word count="1" name="независимый">
+            <documents>
+                <document>3</document>
+            </documents>
+        </word>
+        <word count="1" name="нелокальный">
+            <documents>
+                <document>4</document>
+            </documents>
+        </word>
+        <word count="1" name="несамосопряженный">
+            <documents>
+                <document>0</document>
+            </documents>
+        </word>
+        <word count="1" name="нормировать">
+            <documents>
+                <document>7</document>
+            </documents>
+        </word>
+        <word count="1" name="нулевой">
+            <documents>
+                <document>7</document>
+            </documents>
+        </word>
+        <word count="3" name="о">
+            <documents>
+                <document>1</document>
+                <document>5</document>
+                <document>7</document>
+            </documents>
+        </word>
+        <word count="2" name="об">
+            <documents>
+                <document>0</document>
+                <document>3</document>
+            </documents>
+        </word>
+        <word count="1" name="общий">
+            <documents>
+                <document>5</document>
+            </documents>
+        </word>
+        <word count="2" name="один">
+            <documents>
+                <document>0</document>
+                <document>3</document>
+            </documents>
+        </word>
+        <word count="1" name="оператор">
+            <documents>
+                <document>0</document>
+            </documents>
+        </word>
+        <word count="1" name="особенность">
+            <documents>
+                <document>2</document>
+            </documents>
+        </word>
+        <word count="1" name="отклонение">
+            <documents>
+                <document>7</document>
+            </documents>
+        </word>
+        <word count="1" name="оценка">
+            <documents>
+                <document>8</document>
+            </documents>
+        </word>
+        <word count="1" name="переменный">
+            <documents>
+                <document>3</document>
+            </documents>
+        </word>
+        <word count="1" name="по">
+            <documents>
+                <document>7</document>
+            </documents>
+        </word>
+        <word count="1" name="подмногообразие">
+            <documents>
+                <document>1</document>
+            </documents>
+        </word>
+        <word count="1" name="подобласть">
+            <documents>
+                <document>2</document>
+            </documents>
+        </word>
+        <word count="2" name="порядок">
+            <documents>
+                <document>0</document>
+                <document>3</document>
+            </documents>
+        </word>
+        <word count="1" name="почти">
+            <documents>
+                <document>1</document>
+            </documents>
+        </word>
+        <word count="1" name="распределение">
+            <documents>
+                <document>7</document>
+            </documents>
+        </word>
+        <word count="1" name="род">
+            <documents>
+                <document>2</document>
+            </documents>
+        </word>
+        <word count="1" name="ряд">
+            <documents>
+                <document>8</document>
+            </documents>
+        </word>
+        <word count="5" name="с">
+            <documents>
+                <document>1</document>
+                <document>2</document>
+                <document>3</document>
+                <document>4</document>
+                <document>5</document>
+            </documents>
+        </word>
+        <word count="1" name="сердцевина">
+            <documents>
+                <document>5</document>
+            </documents>
+        </word>
+        <word count="1" name="смешанный">
+            <documents>
+                <document>4</document>
+            </documents>
+        </word>
+        <word count="1" name="сопутствующий">
+            <documents>
+                <document>0</document>
+            </documents>
+        </word>
+        <word count="1" name="спектр">
+            <documents>
+                <document>8</document>
+            </documents>
+        </word>
+        <word count="1" name="специальный">
+            <documents>
+                <document>2</document>
+            </documents>
+        </word>
+        <word count="1" name="средний">
+            <documents>
+                <document>8</document>
+            </documents>
+        </word>
+        <word count="1" name="статистика">
+            <documents>
+                <document>7</document>
+            </documents>
+        </word>
+        <word count="1" name="существование">
+            <documents>
+                <document>6</document>
+            </documents>
+        </word>
+        <word count="1" name="теорема">
+            <documents>
+                <document>6</document>
+            </documents>
+        </word>
+        <word count="1" name="тип">
+            <documents>
+                <document>4</document>
+            </documents>
+        </word>
+        <word count="1" name="типовой">
+            <documents>
+                <document>1</document>
+            </documents>
+        </word>
+        <word count="1" name="третий">
+            <documents>
+                <document>2</document>
+            </documents>
+        </word>
+        <word count="1" name="три-ткань">
+            <documents>
+                <document>5</document>
+            </documents>
+        </word>
+        <word count="4" name="уравнение">
+            <documents>
+                <document>0</document>
+                <document>2</document>
+                <document>3</document>
+                <document>4</document>
+            </documents>
+        </word>
+        <word count="1" name="условие">
+            <documents>
+                <document>4</document>
+            </documents>
+        </word>
+        <word count="1" name="форма">
+            <documents>
+                <document>6</document>
+            </documents>
+        </word>
+        <word count="1" name="четвертый">
+            <documents>
+                <document>3</document>
+            </documents>
+        </word>
+        <word count="1" name="число">
+            <documents>
+                <document>1</document>
+            </documents>
+        </word>
+        <word count="1" name="шестимерный">
+            <documents>
+                <document>5</document>
+            </documents>
+        </word>
+        <word count="1" name="ядро">
+            <documents>
+                <document>2</document>
+            </documents>
+        </word>
+    </words>
+</inverter_index>
