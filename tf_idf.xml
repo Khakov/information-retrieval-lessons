@@ -3,686 +3,686 @@
     <word name="абсолютный">
         <documents>
             <document number="7">
-                <tf_idf_annotate>0.07692307692307693</tf_idf_annotate>
-                <tf_idf>0.022727272727272728</tf_idf>
-                <tf_idf_title>0.013333333333333334</tf_idf_title>
-                <tf_idf_full>0.03876923076923077</tf_idf_full>
+                <tf_idf_full>0.08518470669057344</tf_idf_full>
+                <tf_idf_title>0.029296327697816264</tf_idf_title>
+                <tf_idf_annotate>0.16901727517970921</tf_idf_annotate>
+                <tf_idf>0.04993692221218681</tf_idf>
             </document>
         </documents>
     </word>
     <word name="алгебра">
         <documents>
             <document number="1">
-                <tf_idf_annotate>0.13333333333333333</tf_idf_annotate>
-                <tf_idf>0.08163265306122448</tf_idf>
-                <tf_idf_title>0.029411764705882353</tf_idf_title>
-                <tf_idf_full>0.07098039215686275</tf_idf_full>
+                <tf_idf_full>0.07888328194545746</tf_idf_full>
+                <tf_idf_title>0.06462425227459469</tf_idf_title>
+                <tf_idf_annotate>0.1002718264517516</tf_idf_annotate>
+                <tf_idf>0.061390914154133634</tf_idf>
             </document>
             <document number="3">
+                <tf_idf_full>0.057318902017466596</tf_idf_full>
+                <tf_idf_title>0.09553150336244433</tf_idf_title>
                 <tf_idf_annotate>0.0</tf_idf_annotate>
-                <tf_idf>0.05714285714285714</tf_idf>
-                <tf_idf_title>0.043478260869565216</tf_idf_title>
-                <tf_idf_full>0.02608695652173913</tf_idf_full>
+                <tf_idf>0.042973639907893546</tf_idf>
             </document>
         </documents>
     </word>
     <word name="бола">
         <documents>
             <document number="5">
-                <tf_idf_annotate>0.125</tf_idf_annotate>
-                <tf_idf>0.045454545454545456</tf_idf>
-                <tf_idf_title>0.027777777777777776</tf_idf_title>
-                <tf_idf_full>0.06666666666666667</tf_idf_full>
+                <tf_idf_full>0.1464816384890813</tf_idf_full>
+                <tf_idf_title>0.06103401603711721</tf_idf_title>
+                <tf_idf_annotate>0.27465307216702745</tf_idf_annotate>
+                <tf_idf>0.09987384442437362</tf_idf>
             </document>
         </documents>
     </word>
     <word name="большой">
         <documents>
             <document number="7">
-                <tf_idf_annotate>0.07692307692307693</tf_idf_annotate>
-                <tf_idf>0.022727272727272728</tf_idf>
-                <tf_idf_title>0.013333333333333334</tf_idf_title>
-                <tf_idf_full>0.03876923076923077</tf_idf_full>
+                <tf_idf_full>0.08518470669057344</tf_idf_full>
+                <tf_idf_title>0.029296327697816264</tf_idf_title>
+                <tf_idf_annotate>0.16901727517970921</tf_idf_annotate>
+                <tf_idf>0.04993692221218681</tf_idf>
             </document>
         </documents>
     </word>
     <word name="величина">
         <documents>
             <document number="7">
-                <tf_idf_annotate>0.07692307692307693</tf_idf_annotate>
-                <tf_idf>0.022727272727272728</tf_idf>
-                <tf_idf_title>0.013333333333333334</tf_idf_title>
-                <tf_idf_full>0.03876923076923077</tf_idf_full>
+                <tf_idf_full>0.08518470669057344</tf_idf_full>
+                <tf_idf_title>0.029296327697816264</tf_idf_title>
+                <tf_idf_annotate>0.16901727517970921</tf_idf_annotate>
+                <tf_idf>0.04993692221218681</tf_idf>
             </document>
         </documents>
     </word>
     <word name="гиперповерхность">
         <documents>
             <document number="1">
-                <tf_idf_annotate>0.06666666666666667</tf_idf_annotate>
-                <tf_idf>0.02040816326530612</tf_idf>
-                <tf_idf_title>0.0</tf_idf_title>
                 <tf_idf_full>0.02666666666666667</tf_idf_full>
+                <tf_idf_title>0.0</tf_idf_title>
+                <tf_idf_annotate>0.06666666666666667</tf_idf_annotate>
+                <tf_idf>0.04484131790482081</tf_idf>
             </document>
         </documents>
     </word>
     <word name="граббс">
         <documents>
             <document number="7">
-                <tf_idf_annotate>0.0</tf_idf_annotate>
-                <tf_idf>0.011363636363636364</tf_idf>
-                <tf_idf_title>0.013333333333333334</tf_idf_title>
                 <tf_idf_full>0.008</tf_idf_full>
+                <tf_idf_title>0.013333333333333334</tf_idf_title>
+                <tf_idf_annotate>0.0</tf_idf_annotate>
+                <tf_idf>0.024968461106093406</tf_idf>
             </document>
         </documents>
     </word>
     <word name="доминирующий">
         <documents>
             <document number="3">
-                <tf_idf_annotate>0.0</tf_idf_annotate>
-                <tf_idf>0.02857142857142857</tf_idf>
-                <tf_idf_title>0.043478260869565216</tf_idf_title>
                 <tf_idf_full>0.02608695652173913</tf_idf_full>
+                <tf_idf_title>0.043478260869565216</tf_idf_title>
+                <tf_idf_annotate>0.0</tf_idf_annotate>
+                <tf_idf>0.06277784506674913</tf_idf>
             </document>
         </documents>
     </word>
     <word name="дробный">
         <documents>
             <document number="0">
-                <tf_idf_annotate>0.1</tf_idf_annotate>
-                <tf_idf>0.06976744186046512</tf_idf>
-                <tf_idf_title>0.06060606060606061</tf_idf_title>
-                <tf_idf_full>0.07636363636363637</tf_idf_full>
+                <tf_idf_full>0.16778805863294768</tf_idf_full>
+                <tf_idf_title>0.13316512589916482</tf_idf_title>
+                <tf_idf_annotate>0.21972245773362198</tf_idf_annotate>
+                <tf_idf>0.15329473795368972</tf_idf>
             </document>
         </documents>
     </word>
     <word name="задача">
         <documents>
             <document number="0">
+                <tf_idf_full>0.039949537769749445</tf_idf_full>
+                <tf_idf_title>0.06658256294958241</tf_idf_title>
                 <tf_idf_annotate>0.0</tf_idf_annotate>
-                <tf_idf>0.046511627906976744</tf_idf>
-                <tf_idf_title>0.030303030303030304</tf_idf_title>
-                <tf_idf_full>0.01818181818181818</tf_idf_full>
+                <tf_idf>0.03497854411107614</tf_idf>
             </document>
             <document number="4">
-                <tf_idf_annotate>0.25</tf_idf_annotate>
-                <tf_idf>0.08333333333333333</tf_idf>
-                <tf_idf_title>0.025</tf_idf_title>
-                <tf_idf_full>0.115</tf_idf_full>
+                <tf_idf_full>0.108162238498857</tf_idf_full>
+                <tf_idf_title>0.054930614433405495</tf_idf_title>
+                <tf_idf_annotate>0.18800967459703427</tf_idf_annotate>
+                <tf_idf>0.06266989153234476</tf_idf>
             </document>
         </documents>
     </word>
     <word name="инвариант">
         <documents>
             <document number="3">
-                <tf_idf_annotate>0.08333333333333333</tf_idf_annotate>
-                <tf_idf>0.08571428571428572</tf_idf>
-                <tf_idf_title>0.08695652173913043</tf_idf_title>
-                <tf_idf_full>0.08550724637681159</tf_idf_full>
+                <tf_idf_full>0.18787862327947386</tf_idf_full>
+                <tf_idf_title>0.19106300672488866</tf_idf_title>
+                <tf_idf_annotate>0.1831020481113516</tf_idf_annotate>
+                <tf_idf>0.1883335352002474</tf_idf>
             </document>
         </documents>
     </word>
     <word name="интегральный">
         <documents>
             <document number="0">
+                <tf_idf_full>0.02734686175956862</tf_idf_full>
+                <tf_idf_title>0.04557810293261437</tf_idf_title>
                 <tf_idf_annotate>0.0</tf_idf_annotate>
-                <tf_idf>0.09302325581395349</tf_idf>
-                <tf_idf_title>0.06060606060606061</tf_idf_title>
-                <tf_idf_full>0.03636363636363636</tf_idf_full>
+                <tf_idf>0.01885884223758904</tf_idf>
             </document>
             <document number="8">
-                <tf_idf_annotate>0.5714285714285714</tf_idf_annotate>
-                <tf_idf>0.3076923076923077</tf_idf>
-                <tf_idf_title>0.10526315789473684</tf_idf_title>
-                <tf_idf_full>0.29172932330827067</tf_idf_full>
+                <tf_idf_full>0.09383605044890564</tf_idf_full>
+                <tf_idf_title>0.07916196825138284</tf_idf_title>
+                <tf_idf_annotate>0.11584717374518982</tf_idf_annotate>
+                <tf_idf>0.06237924740125606</tf_idf>
             </document>
             <document number="2">
-                <tf_idf_annotate>0.3076923076923077</tf_idf_annotate>
-                <tf_idf>0.21621621621621623</tf_idf>
-                <tf_idf_title>0.08333333333333333</tf_idf_title>
-                <tf_idf_full>0.17307692307692307</tf_idf_full>
+                <tf_idf_full>0.06255363387990928</tf_idf_full>
+                <tf_idf_title>0.06266989153234476</tf_idf_title>
+                <tf_idf_annotate>0.06237924740125606</tf_idf_annotate>
+                <tf_idf>0.04383406574142318</tf_idf>
             </document>
             <document number="4">
+                <tf_idf_full>0.022561160951644114</tf_idf_full>
+                <tf_idf_title>0.03760193491940686</tf_idf_title>
                 <tf_idf_annotate>0.0</tf_idf_annotate>
-                <tf_idf>0.08333333333333333</tf_idf>
-                <tf_idf_title>0.05</tf_idf_title>
-                <tf_idf_full>0.03</tf_idf_full>
+                <tf_idf>0.016894379504506847</tf_idf>
             </document>
         </documents>
     </word>
     <word name="киллинговый">
         <documents>
             <document number="6">
-                <tf_idf_annotate>0.125</tf_idf_annotate>
-                <tf_idf>0.046153846153846156</tf_idf>
-                <tf_idf_title>0.03508771929824561</tf_idf_title>
-                <tf_idf_full>0.07105263157894737</tf_idf_full>
+                <tf_idf_full>0.15611858838967876</tf_idf_full>
+                <tf_idf_title>0.07709559920477962</tf_idf_title>
+                <tf_idf_annotate>0.27465307216702745</tf_idf_annotate>
+                <tf_idf>0.10141036510782553</tf_idf>
             </document>
         </documents>
     </word>
     <word name="контактный">
         <documents>
             <document number="1">
-                <tf_idf_annotate>0.06666666666666667</tf_idf_annotate>
-                <tf_idf>0.061224489795918366</tf_idf>
-                <tf_idf_title>0.058823529411764705</tf_idf_title>
-                <tf_idf_full>0.061960784313725495</tf_idf_full>
+                <tf_idf_full>0.13614175812514615</tf_idf_full>
+                <tf_idf_title>0.12924850454918937</tf_idf_title>
+                <tf_idf_annotate>0.1464816384890813</tf_idf_annotate>
+                <tf_idf>0.1345239537144624</tf_idf>
             </document>
         </documents>
     </word>
     <word name="конформный">
         <documents>
             <document number="8">
+                <tf_idf_full>0.06938603928430166</tf_idf_full>
+                <tf_idf_title>0.11564339880716945</tf_idf_title>
                 <tf_idf_annotate>0.0</tf_idf_annotate>
-                <tf_idf>0.07692307692307693</tf_idf>
-                <tf_idf_title>0.05263157894736842</tf_idf_title>
-                <tf_idf_full>0.03157894736842105</tf_idf_full>
+                <tf_idf>0.05784913064524132</tf_idf>
             </document>
             <document number="6">
-                <tf_idf_annotate>0.25</tf_idf_annotate>
-                <tf_idf>0.12307692307692308</tf_idf>
-                <tf_idf_title>0.05263157894736842</tf_idf_title>
-                <tf_idf_full>0.13157894736842105</tf_idf_full>
+                <tf_idf_full>0.14458990912311537</tf_idf_full>
+                <tf_idf_title>0.11564339880716945</tf_idf_title>
+                <tf_idf_annotate>0.18800967459703427</tf_idf_annotate>
+                <tf_idf>0.09255860903238611</tf_idf>
             </document>
         </documents>
     </word>
     <word name="критерий">
         <documents>
             <document number="7">
-                <tf_idf_annotate>0.07692307692307693</tf_idf_annotate>
-                <tf_idf>0.056818181818181816</tf_idf>
-                <tf_idf_title>0.05333333333333334</tf_idf_title>
-                <tf_idf_full>0.06276923076923077</tf_idf_full>
+                <tf_idf_full>0.13791809654664272</tf_idf_full>
+                <tf_idf_title>0.11718531079126505</tf_idf_title>
+                <tf_idf_annotate>0.16901727517970921</tf_idf_annotate>
+                <tf_idf>0.12484230553046702</tf_idf>
             </document>
         </documents>
     </word>
     <word name="кэль">
         <documents>
             <document number="1">
-                <tf_idf_annotate>0.06666666666666667</tf_idf_annotate>
-                <tf_idf>0.04081632653061224</tf_idf>
-                <tf_idf_title>0.029411764705882353</tf_idf_title>
-                <tf_idf_full>0.044313725490196076</tf_idf_full>
+                <tf_idf_full>0.09736720676038933</tf_idf_full>
+                <tf_idf_title>0.06462425227459469</tf_idf_title>
+                <tf_idf_annotate>0.1464816384890813</tf_idf_annotate>
+                <tf_idf>0.08968263580964161</tf_idf>
             </document>
         </documents>
     </word>
     <word name="лакунарный">
         <documents>
             <document number="8">
-                <tf_idf_annotate>0.14285714285714285</tf_idf_annotate>
-                <tf_idf>0.07692307692307693</tf_idf>
-                <tf_idf_title>0.05263157894736842</tf_idf_title>
-                <tf_idf_full>0.08872180451127819</tf_idf_full>
+                <tf_idf_full>0.1949417294177999</tf_idf_full>
+                <tf_idf_title>0.11564339880716945</tf_idf_title>
+                <tf_idf_annotate>0.31388922533374564</tf_idf_annotate>
+                <tf_idf>0.16901727517970921</tf_idf>
             </document>
         </documents>
     </word>
     <word name="лаплас">
         <documents>
             <document number="3">
-                <tf_idf_annotate>0.08333333333333333</tf_idf_annotate>
-                <tf_idf>0.08571428571428572</tf_idf>
-                <tf_idf_title>0.08695652173913043</tf_idf_title>
-                <tf_idf_full>0.08550724637681159</tf_idf_full>
+                <tf_idf_full>0.18787862327947386</tf_idf_full>
+                <tf_idf_title>0.19106300672488866</tf_idf_title>
+                <tf_idf_annotate>0.1831020481113516</tf_idf_annotate>
+                <tf_idf>0.1883335352002474</tf_idf>
             </document>
         </documents>
     </word>
     <word name="метод">
         <documents>
             <document number="0">
+                <tf_idf_full>0.039949537769749445</tf_idf_full>
+                <tf_idf_title>0.06658256294958241</tf_idf_title>
                 <tf_idf_annotate>0.0</tf_idf_annotate>
-                <tf_idf>0.06976744186046512</tf_idf>
-                <tf_idf_title>0.030303030303030304</tf_idf_title>
-                <tf_idf_full>0.01818181818181818</tf_idf_full>
+                <tf_idf>0.025549122992281622</tf_idf>
             </document>
             <document number="2">
-                <tf_idf_annotate>0.23076923076923078</tf_idf_annotate>
-                <tf_idf>0.16216216216216217</tf_idf>
-                <tf_idf_title>0.041666666666666664</tf_idf_title>
-                <tf_idf_full>0.11730769230769231</tf_idf_full>
+                <tf_idf_full>0.08873406946934732</tf_idf_full>
+                <tf_idf_title>0.0915510240556758</tf_idf_title>
+                <tf_idf_annotate>0.08450863758985461</tf_idf_annotate>
+                <tf_idf>0.05938444803611405</tf_idf>
             </document>
             <document number="4">
+                <tf_idf_full>0.03295836866004329</tf_idf_full>
+                <tf_idf_title>0.054930614433405495</tf_idf_title>
                 <tf_idf_annotate>0.0</tf_idf_annotate>
-                <tf_idf>0.0625</tf_idf>
-                <tf_idf_title>0.025</tf_idf_title>
-                <tf_idf_full>0.015</tf_idf_full>
+                <tf_idf>0.02288775601391895</tf_idf>
             </document>
         </documents>
     </word>
     <word name="метрический">
         <documents>
             <document number="1">
-                <tf_idf_annotate>0.06666666666666667</tf_idf_annotate>
-                <tf_idf>0.061224489795918366</tf_idf>
-                <tf_idf_title>0.058823529411764705</tf_idf_title>
-                <tf_idf_full>0.061960784313725495</tf_idf_full>
+                <tf_idf_full>0.13614175812514615</tf_idf_full>
+                <tf_idf_title>0.12924850454918937</tf_idf_title>
+                <tf_idf_annotate>0.1464816384890813</tf_idf_annotate>
+                <tf_idf>0.1345239537144624</tf_idf>
             </document>
         </documents>
     </word>
     <word name="многообразие">
         <documents>
             <document number="6">
-                <tf_idf_annotate>0.0</tf_idf_annotate>
-                <tf_idf>0.046153846153846156</tf_idf>
-                <tf_idf_title>0.05263157894736842</tf_idf_title>
                 <tf_idf_full>0.03157894736842105</tf_idf_full>
+                <tf_idf_title>0.05263157894736842</tf_idf_title>
+                <tf_idf_annotate>0.0</tf_idf_annotate>
+                <tf_idf>0.10141036510782553</tf_idf>
             </document>
         </documents>
     </word>
     <word name="мощность">
         <documents>
             <document number="7">
-                <tf_idf_annotate>0.0</tf_idf_annotate>
-                <tf_idf>0.011363636363636364</tf_idf>
-                <tf_idf_title>0.013333333333333334</tf_idf_title>
                 <tf_idf_full>0.008</tf_idf_full>
+                <tf_idf_title>0.013333333333333334</tf_idf_title>
+                <tf_idf_annotate>0.0</tf_idf_annotate>
+                <tf_idf>0.024968461106093406</tf_idf>
             </document>
         </documents>
     </word>
     <word name="нормальный">
         <documents>
             <document number="7">
-                <tf_idf_annotate>0.0</tf_idf_annotate>
-                <tf_idf>0.011363636363636364</tf_idf>
-                <tf_idf_title>0.013333333333333334</tf_idf_title>
                 <tf_idf_full>0.008</tf_idf_full>
+                <tf_idf_title>0.013333333333333334</tf_idf_title>
+                <tf_idf_annotate>0.0</tf_idf_annotate>
+                <tf_idf>0.024968461106093406</tf_idf>
             </document>
         </documents>
     </word>
     <word name="нормировать">
         <documents>
             <document number="7">
-                <tf_idf_annotate>0.07692307692307693</tf_idf_annotate>
-                <tf_idf>0.022727272727272728</tf_idf>
-                <tf_idf_title>0.013333333333333334</tf_idf_title>
-                <tf_idf_full>0.03876923076923077</tf_idf_full>
+                <tf_idf_full>0.08518470669057344</tf_idf_full>
+                <tf_idf_title>0.029296327697816264</tf_idf_title>
+                <tf_idf_annotate>0.16901727517970921</tf_idf_annotate>
+                <tf_idf>0.04993692221218681</tf_idf>
             </document>
         </documents>
     </word>
     <word name="обобщенный">
         <documents>
             <document number="2">
-                <tf_idf_annotate>0.0</tf_idf_annotate>
-                <tf_idf>0.02702702702702703</tf_idf>
-                <tf_idf_title>0.041666666666666664</tf_idf_title>
                 <tf_idf_full>0.024999999999999998</tf_idf_full>
+                <tf_idf_title>0.041666666666666664</tf_idf_title>
+                <tf_idf_annotate>0.0</tf_idf_annotate>
+                <tf_idf>0.05938444803611405</tf_idf>
             </document>
         </documents>
     </word>
     <word name="односторонний">
         <documents>
             <document number="7">
-                <tf_idf_annotate>0.0</tf_idf_annotate>
-                <tf_idf>0.011363636363636364</tf_idf>
-                <tf_idf_title>0.013333333333333334</tf_idf_title>
                 <tf_idf_full>0.008</tf_idf_full>
+                <tf_idf_title>0.013333333333333334</tf_idf_title>
+                <tf_idf_annotate>0.0</tf_idf_annotate>
+                <tf_idf>0.024968461106093406</tf_idf>
             </document>
         </documents>
     </word>
     <word name="оператор">
         <documents>
             <document number="6">
+                <tf_idf_full>0.046257359522867775</tf_idf_full>
+                <tf_idf_title>0.07709559920477962</tf_idf_title>
                 <tf_idf_annotate>0.0</tf_idf_annotate>
-                <tf_idf>0.06153846153846154</tf_idf>
-                <tf_idf_title>0.03508771929824561</tf_idf_title>
-                <tf_idf_full>0.021052631578947368</tf_idf_full>
+                <tf_idf>0.046279304516193054</tf_idf>
             </document>
         </documents>
     </word>
     <word name="отклонение">
         <documents>
             <document number="7">
-                <tf_idf_annotate>0.07692307692307693</tf_idf_annotate>
-                <tf_idf>0.011363636363636364</tf_idf>
+                <tf_idf_full>0.06760691007188369</tf_idf_full>
                 <tf_idf_title>0.0</tf_idf_title>
-                <tf_idf_full>0.03076923076923077</tf_idf_full>
+                <tf_idf_annotate>0.16901727517970921</tf_idf_annotate>
+                <tf_idf>0.024968461106093406</tf_idf>
             </document>
         </documents>
     </word>
     <word name="отображение">
         <documents>
             <document number="8">
-                <tf_idf_annotate>0.0</tf_idf_annotate>
-                <tf_idf>0.038461538461538464</tf_idf>
-                <tf_idf_title>0.05263157894736842</tf_idf_title>
                 <tf_idf_full>0.03157894736842105</tf_idf_full>
+                <tf_idf_title>0.05263157894736842</tf_idf_title>
+                <tf_idf_annotate>0.0</tf_idf_annotate>
+                <tf_idf>0.08450863758985461</tf_idf>
             </document>
         </documents>
     </word>
     <word name="подмногообразие">
         <documents>
             <document number="1">
-                <tf_idf_annotate>0.06666666666666667</tf_idf_annotate>
-                <tf_idf>0.04081632653061224</tf_idf>
-                <tf_idf_title>0.029411764705882353</tf_idf_title>
-                <tf_idf_full>0.044313725490196076</tf_idf_full>
+                <tf_idf_full>0.09736720676038933</tf_idf_full>
+                <tf_idf_title>0.06462425227459469</tf_idf_title>
+                <tf_idf_annotate>0.1464816384890813</tf_idf_annotate>
+                <tf_idf>0.08968263580964161</tf_idf>
             </document>
         </documents>
     </word>
     <word name="подобласть">
         <documents>
             <document number="2">
-                <tf_idf_annotate>0.07692307692307693</tf_idf_annotate>
-                <tf_idf>0.02702702702702703</tf_idf>
+                <tf_idf_full>0.06760691007188369</tf_idf_full>
                 <tf_idf_title>0.0</tf_idf_title>
-                <tf_idf_full>0.03076923076923077</tf_idf_full>
+                <tf_idf_annotate>0.16901727517970921</tf_idf_annotate>
+                <tf_idf>0.05938444803611405</tf_idf>
             </document>
         </documents>
     </word>
     <word name="почти">
         <documents>
             <document number="1">
-                <tf_idf_annotate>0.06666666666666667</tf_idf_annotate>
-                <tf_idf>0.061224489795918366</tf_idf>
-                <tf_idf_title>0.058823529411764705</tf_idf_title>
-                <tf_idf_full>0.061960784313725495</tf_idf_full>
+                <tf_idf_full>0.13614175812514615</tf_idf_full>
+                <tf_idf_title>0.12924850454918937</tf_idf_title>
+                <tf_idf_annotate>0.1464816384890813</tf_idf_annotate>
+                <tf_idf>0.1345239537144624</tf_idf>
             </document>
         </documents>
     </word>
     <word name="приближенный">
         <documents>
             <document number="2">
-                <tf_idf_annotate>0.0</tf_idf_annotate>
-                <tf_idf>0.02702702702702703</tf_idf>
-                <tf_idf_title>0.041666666666666664</tf_idf_title>
                 <tf_idf_full>0.024999999999999998</tf_idf_full>
+                <tf_idf_title>0.041666666666666664</tf_idf_title>
+                <tf_idf_annotate>0.0</tf_idf_annotate>
+                <tf_idf>0.05938444803611405</tf_idf>
             </document>
         </documents>
     </word>
     <word name="пространство">
         <documents>
             <document number="2">
-                <tf_idf_annotate>0.0</tf_idf_annotate>
-                <tf_idf>0.05405405405405406</tf_idf>
-                <tf_idf_title>0.041666666666666664</tf_idf_title>
                 <tf_idf_full>0.024999999999999998</tf_idf_full>
+                <tf_idf_title>0.041666666666666664</tf_idf_title>
+                <tf_idf_annotate>0.0</tf_idf_annotate>
+                <tf_idf>0.04065074045341282</tf_idf>
             </document>
             <document number="6">
-                <tf_idf_annotate>0.0</tf_idf_annotate>
-                <tf_idf>0.06153846153846154</tf_idf>
-                <tf_idf_title>0.03508771929824561</tf_idf_title>
                 <tf_idf_full>0.021052631578947368</tf_idf_full>
+                <tf_idf_title>0.03508771929824561</tf_idf_title>
+                <tf_idf_annotate>0.0</tf_idf_annotate>
+                <tf_idf>0.046279304516193054</tf_idf>
             </document>
         </documents>
     </word>
     <word name="распределение">
         <documents>
             <document number="7">
-                <tf_idf_annotate>0.07692307692307693</tf_idf_annotate>
-                <tf_idf>0.045454545454545456</tf_idf>
-                <tf_idf_title>0.04</tf_idf_title>
-                <tf_idf_full>0.05476923076923077</tf_idf_full>
+                <tf_idf_full>0.12034029992795295</tf_idf_full>
+                <tf_idf_title>0.08788898309344878</tf_idf_title>
+                <tf_idf_annotate>0.16901727517970921</tf_idf_annotate>
+                <tf_idf>0.09987384442437362</tf_idf>
             </document>
         </documents>
     </word>
     <word name="решение">
         <documents>
             <document number="2">
-                <tf_idf_annotate>0.0</tf_idf_annotate>
-                <tf_idf>0.05405405405405406</tf_idf>
-                <tf_idf_title>0.041666666666666664</tf_idf_title>
                 <tf_idf_full>0.024999999999999998</tf_idf_full>
+                <tf_idf_title>0.041666666666666664</tf_idf_title>
+                <tf_idf_annotate>0.0</tf_idf_annotate>
+                <tf_idf>0.04065074045341282</tf_idf>
             </document>
             <document number="4">
-                <tf_idf_annotate>0.0</tf_idf_annotate>
-                <tf_idf>0.041666666666666664</tf_idf>
-                <tf_idf_title>0.025</tf_idf_title>
                 <tf_idf_full>0.015</tf_idf_full>
+                <tf_idf_title>0.025</tf_idf_title>
+                <tf_idf_annotate>0.0</tf_idf_annotate>
+                <tf_idf>0.03133494576617238</tf_idf>
             </document>
         </documents>
     </word>
     <word name="риманов">
         <documents>
             <document number="6">
-                <tf_idf_annotate>0.0</tf_idf_annotate>
-                <tf_idf>0.03076923076923077</tf_idf>
-                <tf_idf_title>0.03508771929824561</tf_idf_title>
                 <tf_idf_full>0.021052631578947368</tf_idf_full>
+                <tf_idf_title>0.03508771929824561</tf_idf_title>
+                <tf_idf_annotate>0.0</tf_idf_annotate>
+                <tf_idf>0.06760691007188369</tf_idf>
             </document>
         </documents>
     </word>
     <word name="род">
         <documents>
             <document number="2">
-                <tf_idf_annotate>0.07692307692307693</tf_idf_annotate>
-                <tf_idf>0.05405405405405406</tf_idf>
-                <tf_idf_title>0.041666666666666664</tf_idf_title>
-                <tf_idf_full>0.055769230769230765</tf_idf_full>
+                <tf_idf_full>0.12253752450528917</tf_idf_full>
+                <tf_idf_title>0.0915510240556758</tf_idf_title>
+                <tf_idf_annotate>0.16901727517970921</tf_idf_annotate>
+                <tf_idf>0.1187688960722281</tf_idf>
             </document>
         </documents>
     </word>
     <word name="ряд">
         <documents>
             <document number="8">
-                <tf_idf_annotate>0.14285714285714285</tf_idf_annotate>
-                <tf_idf>0.07692307692307693</tf_idf>
-                <tf_idf_title>0.05263157894736842</tf_idf_title>
-                <tf_idf_full>0.08872180451127819</tf_idf_full>
+                <tf_idf_full>0.1949417294177999</tf_idf_full>
+                <tf_idf_title>0.11564339880716945</tf_idf_title>
+                <tf_idf_annotate>0.31388922533374564</tf_idf_annotate>
+                <tf_idf>0.16901727517970921</tf_idf>
             </document>
         </documents>
     </word>
     <word name="сердцевина">
         <documents>
             <document number="5">
-                <tf_idf_annotate>0.125</tf_idf_annotate>
-                <tf_idf>0.022727272727272728</tf_idf>
+                <tf_idf_full>0.10986122886681099</tf_idf_full>
                 <tf_idf_title>0.0</tf_idf_title>
-                <tf_idf_full>0.05</tf_idf_full>
+                <tf_idf_annotate>0.27465307216702745</tf_idf_annotate>
+                <tf_idf>0.04993692221218681</tf_idf>
             </document>
         </documents>
     </word>
     <word name="сингулярный">
         <documents>
             <document number="4">
-                <tf_idf_annotate>0.0</tf_idf_annotate>
-                <tf_idf>0.020833333333333332</tf_idf>
-                <tf_idf_title>0.025</tf_idf_title>
                 <tf_idf_full>0.015</tf_idf_full>
+                <tf_idf_title>0.025</tf_idf_title>
+                <tf_idf_annotate>0.0</tf_idf_annotate>
+                <tf_idf>0.0457755120278379</tf_idf>
             </document>
         </documents>
     </word>
     <word name="собственный">
         <documents>
             <document number="0">
-                <tf_idf_annotate>0.0</tf_idf_annotate>
-                <tf_idf>0.046511627906976744</tf_idf>
-                <tf_idf_title>0.06060606060606061</tf_idf_title>
                 <tf_idf_full>0.03636363636363636</tf_idf_full>
+                <tf_idf_title>0.06060606060606061</tf_idf_title>
+                <tf_idf_annotate>0.0</tf_idf_annotate>
+                <tf_idf>0.10219649196912649</tf_idf>
             </document>
         </documents>
     </word>
     <word name="совместный">
         <documents>
             <document number="7">
-                <tf_idf_annotate>0.0</tf_idf_annotate>
-                <tf_idf>0.022727272727272728</tf_idf>
-                <tf_idf_title>0.02666666666666667</tf_idf_title>
                 <tf_idf_full>0.016</tf_idf_full>
+                <tf_idf_title>0.02666666666666667</tf_idf_title>
+                <tf_idf_annotate>0.0</tf_idf_annotate>
+                <tf_idf>0.04993692221218681</tf_idf>
             </document>
         </documents>
     </word>
     <word name="спектр">
         <documents>
             <document number="8">
-                <tf_idf_annotate>0.14285714285714285</tf_idf_annotate>
-                <tf_idf>0.07692307692307693</tf_idf>
-                <tf_idf_title>0.05263157894736842</tf_idf_title>
-                <tf_idf_full>0.08872180451127819</tf_idf_full>
+                <tf_idf_full>0.1949417294177999</tf_idf_full>
+                <tf_idf_title>0.11564339880716945</tf_idf_title>
+                <tf_idf_annotate>0.31388922533374564</tf_idf_annotate>
+                <tf_idf>0.16901727517970921</tf_idf>
             </document>
         </documents>
     </word>
     <word name="средний">
         <documents>
             <document number="8">
-                <tf_idf_annotate>0.14285714285714285</tf_idf_annotate>
-                <tf_idf>0.07692307692307693</tf_idf>
-                <tf_idf_title>0.05263157894736842</tf_idf_title>
-                <tf_idf_full>0.08872180451127819</tf_idf_full>
+                <tf_idf_full>0.1949417294177999</tf_idf_full>
+                <tf_idf_title>0.11564339880716945</tf_idf_title>
+                <tf_idf_annotate>0.31388922533374564</tf_idf_annotate>
+                <tf_idf>0.16901727517970921</tf_idf>
             </document>
         </documents>
     </word>
     <word name="статистика">
         <documents>
             <document number="7">
-                <tf_idf_annotate>0.07692307692307693</tf_idf_annotate>
-                <tf_idf>0.056818181818181816</tf_idf>
-                <tf_idf_title>0.05333333333333334</tf_idf_title>
-                <tf_idf_full>0.06276923076923077</tf_idf_full>
+                <tf_idf_full>0.13791809654664272</tf_idf_full>
+                <tf_idf_title>0.11718531079126505</tf_idf_title>
+                <tf_idf_annotate>0.16901727517970921</tf_idf_annotate>
+                <tf_idf>0.12484230553046702</tf_idf>
             </document>
         </documents>
     </word>
     <word name="структура">
         <documents>
             <document number="1">
-                <tf_idf_annotate>0.0</tf_idf_annotate>
-                <tf_idf>0.02040816326530612</tf_idf>
-                <tf_idf_title>0.029411764705882353</tf_idf_title>
                 <tf_idf_full>0.01764705882352941</tf_idf_full>
+                <tf_idf_title>0.029411764705882353</tf_idf_title>
+                <tf_idf_annotate>0.0</tf_idf_annotate>
+                <tf_idf>0.04484131790482081</tf_idf>
             </document>
         </documents>
     </word>
     <word name="существование">
         <documents>
             <document number="4">
+                <tf_idf_full>0.03295836866004329</tf_idf_full>
+                <tf_idf_title>0.054930614433405495</tf_idf_title>
                 <tf_idf_annotate>0.0</tf_idf_annotate>
-                <tf_idf>0.041666666666666664</tf_idf>
-                <tf_idf_title>0.025</tf_idf_title>
-                <tf_idf_full>0.015</tf_idf_full>
+                <tf_idf>0.03133494576617238</tf_idf>
             </document>
             <document number="6">
-                <tf_idf_annotate>0.25</tf_idf_annotate>
-                <tf_idf>0.06153846153846154</tf_idf>
+                <tf_idf_full>0.21972245773362198</tf_idf_full>
                 <tf_idf_title>0.0</tf_idf_title>
-                <tf_idf_full>0.1</tf_idf_full>
+                <tf_idf_annotate>0.5493061443340549</tf_idf_annotate>
+                <tf_idf>0.046279304516193054</tf_idf>
             </document>
         </documents>
     </word>
     <word name="теорема">
         <documents>
             <document number="6">
-                <tf_idf_annotate>0.125</tf_idf_annotate>
-                <tf_idf>0.015384615384615385</tf_idf>
-                <tf_idf_title>0.0</tf_idf_title>
                 <tf_idf_full>0.05</tf_idf_full>
+                <tf_idf_title>0.0</tf_idf_title>
+                <tf_idf_annotate>0.125</tf_idf_annotate>
+                <tf_idf>0.03380345503594184</tf_idf>
             </document>
         </documents>
     </word>
     <word name="типовой">
         <documents>
             <document number="1">
-                <tf_idf_annotate>0.06666666666666667</tf_idf_annotate>
-                <tf_idf>0.04081632653061224</tf_idf>
-                <tf_idf_title>0.029411764705882353</tf_idf_title>
-                <tf_idf_full>0.044313725490196076</tf_idf_full>
+                <tf_idf_full>0.09736720676038933</tf_idf_full>
+                <tf_idf_title>0.06462425227459469</tf_idf_title>
+                <tf_idf_annotate>0.1464816384890813</tf_idf_annotate>
+                <tf_idf>0.08968263580964161</tf_idf>
             </document>
         </documents>
     </word>
     <word name="ткань">
         <documents>
             <document number="5">
-                <tf_idf_annotate>0.0</tf_idf_annotate>
-                <tf_idf>0.045454545454545456</tf_idf>
-                <tf_idf_title>0.05555555555555555</tf_idf_title>
                 <tf_idf_full>0.03333333333333333</tf_idf_full>
+                <tf_idf_title>0.05555555555555555</tf_idf_title>
+                <tf_idf_annotate>0.0</tf_idf_annotate>
+                <tf_idf>0.09987384442437362</tf_idf>
             </document>
         </documents>
     </word>
     <word name="третий">
         <documents>
             <document number="2">
-                <tf_idf_annotate>0.07692307692307693</tf_idf_annotate>
-                <tf_idf>0.05405405405405406</tf_idf>
-                <tf_idf_title>0.041666666666666664</tf_idf_title>
-                <tf_idf_full>0.055769230769230765</tf_idf_full>
+                <tf_idf_full>0.12253752450528917</tf_idf_full>
+                <tf_idf_title>0.0915510240556758</tf_idf_title>
+                <tf_idf_annotate>0.16901727517970921</tf_idf_annotate>
+                <tf_idf>0.1187688960722281</tf_idf>
             </document>
         </documents>
     </word>
     <word name="уравнение">
         <documents>
             <document number="0">
-                <tf_idf_annotate>0.4</tf_idf_annotate>
-                <tf_idf>0.18604651162790697</tf_idf>
-                <tf_idf_title>0.12121212121212122</tf_idf_title>
-                <tf_idf_full>0.23272727272727275</tf_idf_full>
+                <tf_idf_full>0.04718139439804095</tf_idf_full>
+                <tf_idf_title>0.024573642915646326</tf_idf_title>
+                <tf_idf_annotate>0.08109302162163289</tf_idf_annotate>
+                <tf_idf>0.03771768447517808</tf_idf>
             </document>
             <document number="2">
-                <tf_idf_annotate>0.3076923076923077</tf_idf_annotate>
-                <tf_idf>0.21621621621621623</tf_idf>
-                <tf_idf_title>0.16666666666666666</tf_idf_title>
-                <tf_idf_full>0.22307692307692306</tf_idf_full>
+                <tf_idf_full>0.04522495436591064</tf_idf_full>
+                <tf_idf_title>0.033788759009013694</tf_idf_title>
+                <tf_idf_annotate>0.06237924740125606</tf_idf_annotate>
+                <tf_idf>0.04383406574142318</tf_idf>
             </document>
             <document number="3">
-                <tf_idf_annotate>0.3333333333333333</tf_idf_annotate>
-                <tf_idf>0.22857142857142856</tf_idf>
-                <tf_idf_title>0.17391304347826086</tf_idf_title>
-                <tf_idf_full>0.23768115942028983</tf_idf_full>
+                <tf_idf_full>0.04818570849981083</tf_idf_full>
+                <tf_idf_title>0.035257835487666464</tf_idf_title>
+                <tf_idf_annotate>0.06757751801802739</tf_idf_annotate>
+                <tf_idf>0.046338869498075926</tf_idf>
             </document>
             <document number="4">
-                <tf_idf_annotate>0.5</tf_idf_annotate>
-                <tf_idf>0.25</tf_idf>
-                <tf_idf_title>0.2</tf_idf_title>
-                <tf_idf_full>0.32</tf_idf_full>
+                <tf_idf_full>0.06487441729730631</tf_idf_full>
+                <tf_idf_title>0.04054651081081644</tf_idf_title>
+                <tf_idf_annotate>0.1013662770270411</tf_idf_annotate>
+                <tf_idf>0.05068313851352055</tf_idf>
             </document>
         </documents>
     </word>
     <word name="форма">
         <documents>
             <document number="6">
-                <tf_idf_annotate>0.125</tf_idf_annotate>
-                <tf_idf>0.015384615384615385</tf_idf>
-                <tf_idf_title>0.0</tf_idf_title>
                 <tf_idf_full>0.05</tf_idf_full>
+                <tf_idf_title>0.0</tf_idf_title>
+                <tf_idf_annotate>0.125</tf_idf_annotate>
+                <tf_idf>0.03380345503594184</tf_idf>
             </document>
         </documents>
     </word>
     <word name="функция">
         <documents>
             <document number="0">
-                <tf_idf_annotate>0.0</tf_idf_annotate>
-                <tf_idf>0.06976744186046512</tf_idf>
-                <tf_idf_title>0.030303030303030304</tf_idf_title>
                 <tf_idf_full>0.01818181818181818</tf_idf_full>
+                <tf_idf_title>0.030303030303030304</tf_idf_title>
+                <tf_idf_annotate>0.0</tf_idf_annotate>
+                <tf_idf>0.025549122992281622</tf_idf>
             </document>
             <document number="2">
-                <tf_idf_annotate>0.0</tf_idf_annotate>
-                <tf_idf>0.08108108108108109</tf_idf>
-                <tf_idf_title>0.041666666666666664</tf_idf_title>
                 <tf_idf_full>0.024999999999999998</tf_idf_full>
+                <tf_idf_title>0.041666666666666664</tf_idf_title>
+                <tf_idf_annotate>0.0</tf_idf_annotate>
+                <tf_idf>0.029692224018057024</tf_idf>
             </document>
             <document number="7">
-                <tf_idf_annotate>0.0</tf_idf_annotate>
-                <tf_idf>0.10227272727272727</tf_idf>
-                <tf_idf_title>0.04</tf_idf_title>
                 <tf_idf_full>0.024</tf_idf_full>
+                <tf_idf_title>0.04</tf_idf_title>
+                <tf_idf_annotate>0.0</tf_idf_annotate>
+                <tf_idf>0.03745269165914011</tf_idf>
             </document>
         </documents>
     </word>
     <word name="частный">
         <documents>
             <document number="3">
-                <tf_idf_annotate>0.0</tf_idf_annotate>
-                <tf_idf>0.02857142857142857</tf_idf>
-                <tf_idf_title>0.043478260869565216</tf_idf_title>
                 <tf_idf_full>0.02608695652173913</tf_idf_full>
+                <tf_idf_title>0.043478260869565216</tf_idf_title>
+                <tf_idf_annotate>0.0</tf_idf_annotate>
+                <tf_idf>0.06277784506674913</tf_idf>
             </document>
         </documents>
     </word>
     <word name="число">
         <documents>
             <document number="1">
-                <tf_idf_annotate>0.06666666666666667</tf_idf_annotate>
-                <tf_idf>0.04081632653061224</tf_idf>
-                <tf_idf_title>0.029411764705882353</tf_idf_title>
-                <tf_idf_full>0.044313725490196076</tf_idf_full>
+                <tf_idf_full>0.09736720676038933</tf_idf_full>
+                <tf_idf_title>0.06462425227459469</tf_idf_title>
+                <tf_idf_annotate>0.1464816384890813</tf_idf_annotate>
+                <tf_idf>0.08968263580964161</tf_idf>
             </document>
         </documents>
     </word>
     <word name="эластичный">
         <documents>
             <document number="5">
-                <tf_idf_annotate>0.0</tf_idf_annotate>
-                <tf_idf>0.022727272727272728</tf_idf>
-                <tf_idf_title>0.027777777777777776</tf_idf_title>
                 <tf_idf_full>0.016666666666666666</tf_idf_full>
+                <tf_idf_title>0.027777777777777776</tf_idf_title>
+                <tf_idf_annotate>0.0</tf_idf_annotate>
+                <tf_idf>0.04993692221218681</tf_idf>
             </document>
         </documents>
     </word>
