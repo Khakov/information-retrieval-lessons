@@ -2,3 +2,6 @@ lxml==4.1.1
 requests==2.18.4
 dicttoxml==1.7.4
 pymystem3==0.1.9
+numpy==1.14.2
+nltk
+scipy
