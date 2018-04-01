@@ -2,6 +2,8 @@ import collections
 import xml.etree.ElementTree as Elem
 
 import math
+from string import punctuation
+
 from pymystem3 import Mystem
 from utils import get_words, get_articles
 
@@ -13,8 +15,8 @@ def get_keywords(articles_list):
     for doc_num, article in enumerate(articles_list):
         keyword_str += ' '.join([keyword.text for keyword in article.find('keywords').findall('keyword')])
         keyword_str += ' '
-        annotate_map[doc_num] = article.find('title_mystem').text.split()
-        title_map[doc_num] = article.find('annotate_mystem').text.split()
+        annotate_map[doc_num] = [word.strip(punctuation) for word in article.find('title_mystem').text.split()]
+        title_map[doc_num] = [word.strip(punctuation) for word in article.find('annotate_mystem').text.split()]
     return set(
         [word.strip() for word in Mystem().lemmatize(keyword_str) if len(word.strip()) > 2]), annotate_map, title_map
 
@@ -55,11 +57,17 @@ def calculate_tf_idf():
             # calc tf * idf
             if word_map_title.get(keyword, None) is not None:
                 tf_idf_title *= math.log(doc_len / len(word_map_title[keyword]))
+            else:
+                tf_idf_title = 0
             if word_map_annotate.get(keyword, None) is not None:
                 tf_idf_annotate *= math.log(doc_len / len(word_map_annotate[keyword]))
+            else:
+                tf_idf_annotate = 0
             if word_map.get(keyword, None) is not None:
                 tf_idf *= math.log(doc_len / len(word_map[keyword]))
                 tf_idf_full = 0.4 * tf_idf_annotate + 0.6 * tf_idf_title
+            else:
+                tf_idf = 0
             if tf_idf > 0:
                 if keyword_result.get(keyword, None) is None:
                     keyword_result[keyword] = {}
