@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tf_idf_words>
+    <word name="доказано">
+        <documents>
+            <document number="1">
+                <tf_idf_annotate>0</tf_idf_annotate>
+                <tf_idf_full>0.026542542296051897</tf_idf_full>
+                <tf_idf>0.030695457077066817</tf_idf>
+                <tf_idf_title>0.04423757049341983</tf_idf_title>
+            </document>
+            <document number="4">
+                <tf_idf_annotate>0</tf_idf_annotate>
+                <tf_idf_full>0.022561160951644114</tf_idf_full>
+                <tf_idf>0.03133494576617238</tf_idf>
+                <tf_idf_title>0.03760193491940686</tf_idf_title>
+            </document>
+        </documents>
+    </word>
+    <word name="доказано -единице">
+        <documents>
+            <document number="4">
+                <tf_idf_annotate>0</tf_idf_annotate>
+                <tf_idf_full>0.022561160951644114</tf_idf_full>
+                <tf_idf>0.03133494576617238</tf_idf>
+                <tf_idf_title>0.03760193491940686</tf_idf_title>
+            </document>
+        </documents>
+    </word>
+    <word name="класс операторов">
+        <documents>
+            <document number="0">
+                <tf_idf_annotate>0.43944491546724396</tf_idf_annotate>
+                <tf_idf_full>0.19575273507177232</tf_idf_full>
+                <tf_idf>0.10493563233322842</tf_idf>
+                <tf_idf_title>0.033291281474791205</tf_idf_title>
+            </document>
+        </documents>
+    </word>
+    <word name="пространстве">
+        <documents>
+            <document number="2">
+                <tf_idf_annotate>0</tf_idf_annotate>
+                <tf_idf_full>0.02746530721670274</tf_idf_full>
+                <tf_idf>0.04065074045341282</tf_idf>
+                <tf_idf_title>0.0457755120278379</tf_idf_title>
+            </document>
+            <document number="6">
+                <tf_idf_annotate>0</tf_idf_annotate>
+                <tf_idf_full>0.023128679761433887</tf_idf_full>
+                <tf_idf>0.046279304516193054</tf_idf>
+                <tf_idf_title>0.03854779960238981</tf_idf_title>
+            </document>
+        </documents>
+    </word>
+    <word name="теоремы существования">
+        <documents>
+            <document number="6">
+                <tf_idf_annotate>0.6506724213610959</tf_idf_annotate>
+                <tf_idf_full>0.26026896854443843</tf_idf_full>
+                <tf_idf>0.0800827595521349</tf_idf>
+                <tf_idf_title>0.0</tf_idf_title>
+            </document>
+        </documents>
+    </word>
+    <word name="уравнения -алгебра">
+        <documents>
+            <document number="0">
+                <tf_idf_annotate>0.08109302162163289</tf_idf_annotate>
+                <tf_idf_full>0.0367202281270671</tf_idf_full>
+                <tf_idf>0.056576526712767125</tf_idf>
+                <tf_idf_title>0.007138365797356573</tf_idf_title>
+            </document>
+            <document number="2">
+                <tf_idf_annotate>0.06237924740125606</tf_idf_annotate>
+                <tf_idf_full>0.027896274851912012</tf_idf_full>
+                <tf_idf>0.04383406574142318</tf_idf>
+                <tf_idf_title>0.004907626485682643</tf_idf_title>
+            </document>
+            <document number="4">
+                <tf_idf_annotate>0.1013662770270411</tf_idf_annotate>
+                <tf_idf_full>0.044080001880507945</tf_idf_full>
+                <tf_idf>0.05068313851352055</tf_idf>
+                <tf_idf_title>0.005889151782819173</tf_idf_title>
+            </document>
+        </documents>
+    </word>
+</tf_idf_words>
