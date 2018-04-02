@@ -18,6 +18,7 @@ class LSI(object):
         self.is_tf_idf = is_tf_idf
         #  строим матрицу
         self.A = self._build_matrix()
+        self.u_k, self.s_k, self.v_k = self._svd_with_approximation()
 
     # достаем слова из всех документов
     def _get_words(self):
@@ -84,23 +85,38 @@ class LSI(object):
         return (x @ y) / (np.linalg.norm(x) * np.linalg.norm(y))
 
     # вычисляем резльтат
-    def calc(self, query):
+    def calc(self, query, file):
         _query = self._prepare_query(query)
-        u_k, s_k, v_k = self._svd_with_approximation()
-        query_coordinates = _query.T @ u_k @ np.linalg.pinv(s_k)  # вычисляем q = q_T * u_k * s_k ^-1
-        doc_coordinates = self.A.T @ u_k @ np.linalg.pinv(s_k)  # вычисляем A = A_T * u_k * s_k ^-1
+        query_coordinates = _query.T @ self.u_k @ np.linalg.pinv(self.s_k)  # вычисляем q = q_T * u_k * s_k ^-1
+        doc_coordinates = self.A.T @ self.u_k @ np.linalg.pinv(self.s_k)  # вычисляем A = A_T * u_k * s_k ^-1
         result = np.apply_along_axis(  # берем срез вектора вдоль главной оси и вычисляем косинусную меру
             lambda row: self._similarity(query_coordinates, row),  # для каждого документа считаем его косинусную меру
             axis=1,
             arr=doc_coordinates
         )
         ranking = np.argsort(-result)
+        file.write("\n" + query + " ranking =\n" + str(result) + "\n")
+        file.write(str(ranking))
         return ranking
+
+    def print_matrix(self, file):
+        file.write("s_k = ")
+        file.write(str(self.s_k))
+        file.write("\n u_k = \n")
+        file.write(str(self.u_k))
+        file.write("\n v_k \n")
+        file.write(str(self.v_k))
 
 
 articles = get_articles_mystem('issue.xml')
 query = "риманово многообразие"
+f = open('task_06.txt', 'a')
 lsi = LSI(articles)
-print(lsi.calc(query))
+lsi.print_matrix(f)
+print(lsi.calc(query, f))
+print(lsi.calc('класс операторов', f))
+print(lsi.calc('теоремы существования', f))
+print(lsi.calc('пространстве', f))
+print(lsi.calc('доказано', f))
 # [1 4 8 3 5 6 7 0 2] - контактный метрический
 # [6 1 2 0 8 7 5 3 4] - риманово многообразие
