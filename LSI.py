@@ -7,7 +7,7 @@ import numpy as np
 
 
 class LSI(object):
-    def __init__(self, docs, is_tf_idf=False, k=2):
+    def __init__(self, docs, is_tf_idf=True, k=2):
         # инициализируем документы
         self.docs = self._prepare_docs(docs)
         # инициализируем  слова
@@ -38,7 +38,7 @@ class LSI(object):
             docs_count = len(self.docs)
             model = np.zeros((len(self.words), len(self.docs)), dtype=float)
             for i, word in enumerate(self.words):
-                for j, doc in enumerate(self.docs):
+                for j, doc in self.docs.items():
                     tf = matrix[i, j] / len(doc)
                     if matrix[i, j] != 0:
                         idf = np.log(docs_count / sum(matrix[i] > 0))
@@ -88,13 +88,12 @@ class LSI(object):
     def calc(self, query, file):
         _query = self._prepare_query(query)
         query_coordinates = _query.T @ self.u_k @ np.linalg.pinv(self.s_k)  # вычисляем q = q_T * u_k * s_k ^-1
-        doc_coordinates = self.A.T @ self.u_k @ np.linalg.pinv(self.s_k)  # вычисляем A = A_T * u_k * s_k ^-1
         result = np.apply_along_axis(  # берем срез вектора вдоль главной оси и вычисляем косинусную меру
             lambda row: self._similarity(query_coordinates, row),  # для каждого документа считаем его косинусную меру
             axis=1,
-            arr=doc_coordinates
+            arr=self.v_k.T
         )
-        ranking = np.argsort(-result)
+        ranking = np.argsort(result)
         file.write("\n" + query + " ranking =\n" + str(result) + "\n")
         file.write(str(ranking))
         return ranking
@@ -110,7 +109,7 @@ class LSI(object):
 
 articles = get_articles_mystem('issue.xml')
 query = "риманово многообразие"
-f = open('task_06.txt', 'a')
+f = open('task_06.txt', 'w')
 lsi = LSI(articles)
 lsi.print_matrix(f)
 print(lsi.calc(query, f))

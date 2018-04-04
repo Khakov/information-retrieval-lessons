@@ -121,18 +121,18 @@ class TF_IDF:
         self.result_query[query] = {}
         for doc_num in result_docs:
             self.result_query[query][doc_num] = {}
-            self.result_query[query][doc_num]['tf_idf'] = 0
-            self.result_query[query][doc_num]['tf_idf_full'] = 0
-            self.result_query[query][doc_num]['tf_idf_title'] = 0
-            self.result_query[query][doc_num]['tf_idf_annotate'] = 0
+            self.result_query[query][doc_num]['score'] = 0
+            self.result_query[query][doc_num]['score_full'] = 0
+            self.result_query[query][doc_num]['score_title'] = 0
+            self.result_query[query][doc_num]['score_annotate'] = 0
             for word in term:
-                self.add_tf_idf(query, word, doc_num, 'tf_idf')
-                self.add_tf_idf(query, word, doc_num, 'tf_idf_full')
-                self.add_tf_idf(query, word, doc_num, 'tf_idf_title')
-                self.add_tf_idf(query, word, doc_num, 'tf_idf_annotate')
+                self.add_tf_idf(query, word, doc_num, 'tf_idf', 'score')
+                self.add_tf_idf(query, word, doc_num, 'tf_idf_full', 'score_full')
+                self.add_tf_idf(query, word, doc_num, 'tf_idf_title', 'score_title')
+                self.add_tf_idf(query, word, doc_num, 'tf_idf_annotate', 'score_annotate')
 
-    def add_tf_idf(self, query, word, doc_num, tf_idf):
-        self.result_query[query][doc_num][tf_idf] += self.keyword_result[word][doc_num][tf_idf]
+    def add_tf_idf(self, query, word, doc_num, tf_idf, score):
+        self.result_query[query][doc_num][score] += self.keyword_result[word][doc_num][tf_idf]
 
     def print_result(self):
         print(self.result_query)
@@ -147,5 +147,7 @@ tf_idf.calc_query_score('теоремы существования')
 tf_idf.calc_query_score('пространстве')
 tf_idf.calc_query_score('доказано')
 tf_idf.calc_query_score('доказано -единице')
-tf_idf.write_to_file("task_05.xml", is_query=True)
+# tf_idf.write_to_file("task_05.xml", is_query=True)
+f = open("task_05.txt", 'w')
+f.write(str(tf_idf.result_query))
 tf_idf.print_result()
